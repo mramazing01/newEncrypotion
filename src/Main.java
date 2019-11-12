@@ -1,8 +1,6 @@
 class Main {
 
     public static void main(String[] args){
-        print p =new print();
-        p.hello();
         test.h();
     }
 }
