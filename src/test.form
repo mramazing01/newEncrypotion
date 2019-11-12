@@ -59,7 +59,7 @@
           <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Key / file name"/>
+          <text value="Key / File name"/>
         </properties>
       </component>
       <component id="51466" class="javax.swing.JLabel">
@@ -67,7 +67,7 @@
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Output / save name"/>
+          <text value="Output / Save name"/>
         </properties>
       </component>
       <component id="83120" class="javax.swing.JButton" binding="pictureButton" default-binding="true">
