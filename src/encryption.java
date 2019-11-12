@@ -1,4 +1,3 @@
-//change
 class encryption{
     String plaintext;
     public String cyphertext;

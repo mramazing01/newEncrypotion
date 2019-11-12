@@ -1,4 +1,3 @@
-//change
 public class vignere extends encryption{
     private void encryptCharacterNumber(int whichOne, int howMuch) {
         Character p = plaintext.toLowerCase().charAt(whichOne);

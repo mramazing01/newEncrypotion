@@ -1,4 +1,3 @@
-//change
 class vernam extends encryption{
     private int asciikey;
     private int currentCheck;
