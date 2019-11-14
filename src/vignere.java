@@ -1,7 +1,7 @@
 public class vignere extends encryption{
     private void encryptCharacterNumber(int whichOne, int howMuch) {
-        Character p = plaintext.toLowerCase().charAt(whichOne);
-        Character g = key.toLowerCase().charAt(howMuch);
+        char p = plaintext.toLowerCase().charAt(whichOne);
+        char g = key.toLowerCase().charAt(howMuch);
         int m=(int)p;
         int h=(int)g;
         if(m>96&&m<123) {
@@ -37,8 +37,8 @@ public class vignere extends encryption{
         }
     }
     private void decryptCharacterNumber(int whichOne, int howMuch) {
-        Character p = plaintext.toLowerCase().charAt(whichOne);
-        Character g = key.toLowerCase().charAt(howMuch);
+        char p = plaintext.toLowerCase().charAt(whichOne);
+        char g = key.toLowerCase().charAt(howMuch);
         int m=(int)p;
         int h=(int)g;
         if(m>96&&m<123) {

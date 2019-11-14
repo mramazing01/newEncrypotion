@@ -21,7 +21,7 @@ class pic{
         System.out.println("width = "+width);
         System.out.println("Height = "+height);
         for(int i=0;i<message.length();i++){
-            Character p = message.toLowerCase().charAt(i);
+            char p = message.toLowerCase().charAt(i);
             int r=(int)p;
             int[] pix;
             if(w>=width){
@@ -50,7 +50,7 @@ class pic{
         int width = image.getWidth();
         int height = image.getHeight();
         int x=1;
-        int pix[];
+        int[] pix;
         System.out.println("width = "+width);
         System.out.println("Height = "+height);
         while(x==1){

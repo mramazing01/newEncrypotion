@@ -16,7 +16,7 @@ class encryption{
     }
 
     void encryptCharacterNumber(int whichOne) {
-        Character p = plaintext.toLowerCase().charAt(whichOne);
+        char p = plaintext.toLowerCase().charAt(whichOne);
         int keyy=Integer.parseInt(key);
         int m=(int)p;
         if(m>96&&m<123){
@@ -39,7 +39,7 @@ class encryption{
         }
     }
     void decryptCharacterNumber(int whichOne) {
-        Character p = plaintext.toLowerCase().charAt(whichOne);
+        char p = plaintext.toLowerCase().charAt(whichOne);
         int keyy=Integer.parseInt(key);
         int m=(int)p;
         if(m>96&&m<123){

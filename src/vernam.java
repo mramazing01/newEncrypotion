@@ -5,14 +5,14 @@ class vernam extends encryption{
     protected void encryptCharacterNumber(int whichOne) {
         char p = plaintext.charAt(whichOne);
         int asciitext = (int) p;
-        Character l=key.toLowerCase().charAt(whichOne);
+        char l=key.toLowerCase().charAt(whichOne);
         asciikey=(int)l;
         int asciicyper = asciitext ^asciikey;
         /*String textcyper=Integer.toString(asciicyper);*/
         cyphertext+=(asciicyper+" ");
     }
 
-    protected void decrypt(){
+    void decrypt(){
         int m=0;
         int n=0;
         for(int i=0;i<plaintext.length();i++){
@@ -45,7 +45,7 @@ class vernam extends encryption{
         }
     }
     void decryptCharacterNumber(int whichOne){
-        Character l = key.toLowerCase().charAt(whichOne);
+        char l = key.toLowerCase().charAt(whichOne);
         asciikey = (int) l;
         int asciicyper = currentCheck ^ asciikey;
         char finalLetter = (char) asciicyper;
